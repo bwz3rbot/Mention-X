@@ -22,6 +22,7 @@ async function handleCommand(task) {
                     const parentId = p.replace("t3_", "");
                     console.log(`Getting parent: "${parentId}"`);
                     const parent = await getParent(parentId);
+                    await snoolicious.requester.getSubreddit(parent.subreddit.display_name).subscribe();
                     await xpost(parent);
                 } else { // Parent was not a submission. 
                     console.log("Parent item was a comment. Must be a submission.".red);

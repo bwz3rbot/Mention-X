@@ -43,7 +43,7 @@ This project is built with Node.JS. Download the latest version [here](https://n
 
 This bot requires permission to post on any given sub.\
 The sub must allow crossposting.\
-The bot must be subscribed to every subreddit which it will be submitting a cross-post to.
+The bot must be subscribed to every subreddit which it will be submitting a cross-post to, but will attempt to subscribe to the subreddit if not subscribed already.
 
 
 
