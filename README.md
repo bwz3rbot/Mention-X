@@ -70,7 +70,7 @@ __REDDIT_PASS__ is its password.\
 __DEBUG_NETWORK__ may be set to false unless any problems arise.\
 __SUBREDDITS__ a list of subreddits for the bot to crosspost to.\
 __STARTUP_LIMIT__ will cause the bot to check this many items on the first sweep. Setting this value higher will ensure that when stopping and restarting the bot, no requests are forgotten. This value may be set up to 100\
-__USER_SUBMISSION_LIMIT__ Will limit the amount of posts the bot will find on its next sweeps after the first.\
+__MENTION_LIMIT__ the amount of mentions the bot will pick up on every sweep after the first.\
 __INTERVAL__ The time (in minutes) for which the bot should sleep between doing its job again.\
 __OWNER_USERNAME__ the only user the bot will respond to when mentioned.
 
@@ -86,7 +86,6 @@ SUBREDDITS='IntWatch, AnotherBotFarm'
 DEBUG_NETWORK='false'
 STARTUP_LIMIT='1'
 MENTIONS_LIMIT='1'
-USER_SUBMISSION_LIMIT='3'
 INTERVAL='10'
 OWNER_USERNAME="bwz3r"
 ```
