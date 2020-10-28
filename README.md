@@ -107,7 +107,7 @@ First install the dependencies by double-clicking __install.bat__ or running thi
 
 Now you may run the bot by double-clicking __run.bat__ or running this command: `node src/bot.js`
 
-To activate the bot on a specific submission, you must send it a *mention* by calling its username then passing a command. For example:
+To activate the bot on a specific submission, you must reply to the post in a top level comment and send the bot a *mention* by calling its username then passing a command. For example:
 
 ```
 u/SnootyScraper !xpost
